@@ -1,0 +1,70 @@
+.to-do-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    min-height: 450px;
+    aspect-ratio: 0.85/1;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 1%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.task-input-cont{
+    margin-top: 5%;
+    height: 8%;
+    background-color: black;
+    width: 75%;
+    background-color: rgb(231, 229, 229);
+    border-radius: 25px;
+}
+
+.task-input-box{
+    height: 100%;
+    width: 75%;
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    padding-left: 5%;
+    font-size: 110%;
+}
+
+.task-input-box:focus{
+    outline: none;
+    opacity: 0.7;
+}
+
+.task-submit-button{
+    height: 100%;
+    width: 25%;
+    border-radius: 25px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-size: 120%;
+}
+
+.task-submit-button:hover{
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.task-submit-button:active{
+    scale: 0.85;
+}
+
+.task-holder{
+    margin-top: 8%;
+    height: 60%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.task-holder::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}

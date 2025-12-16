@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+    outline: none;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none; 
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+}
+
+html, body, #root{
+    height: 100%;
+    width: 100%;
+}
+
+#root{
+    background-color: #439cef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
